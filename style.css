@@ -1,0 +1,42 @@
+body{
+    background-color: hsl(0, 4%, 10%);
+    color: #1b1919;
+    font-weight: bold;
+}
+.content{
+    background-color: #fff;
+    margin: 40px auto;
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-style: dotted;
+    border-radius: 15px;
+}
+
+
+
+.flip-btn {
+    background: linear-gradient(45deg, #007bff, #00d4ff);
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.flip-btn:hover {
+    background: linear-gradient(45deg, #0056b3, #00a2d4);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.flip-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
